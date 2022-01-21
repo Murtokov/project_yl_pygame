@@ -50,7 +50,7 @@ def game_menu():
                 running = False
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_z:
-                    game_menu()
+                    main_menu()
                 if event.key == pygame.K_q:
                     running = False
 
